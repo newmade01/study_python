@@ -118,3 +118,52 @@ print(departure)
 > area=(10,2)
 s="width:{x[0]}, he:{x[1]}".format(x=area)
 
+
+**byte class**
+bytearray: 바이트의 객체의 요소를 변경할 수 있는 Mutable 타입
+'b'문자 접두어를 넣어 바이트 리트럴
+ASCII코드로 처리
+encode()와 decode()
+>s="Hi"
+b=s.encode()
+print(b)
+s2=b.decode()
+print(s2)
+//특정 인코딩 방식 지정
+x="HI".encode("UTF-8")
+print(x)
+
+조건문
+------------
+**if문**
+> if x<10:
+print(x)
+
+**elif 문**
+>x=10
+if x<10:
+print("한자리수")
+elif  x<100:
+print("두자리수")
+else:
+print("나머지 세자리 이상")
+
+**특정 블럭/문장을 수행하지 않고 SKIP**
+> if n<10:
+pass
+else:
+print(n)
+
+반복문
+------------
+**for**
+**for** 요소변수** in **컬렉션:
+
+**range**
+
+| 예제  | 뜻  | 리턴값|
+| ------------ | ------------ |
+|  range(3) | Stop  | 0,1,2
+|range(3,6)|start,Stop| 3,4,5
+|rage(2,11,2)|start, stop, step|2,4,6,8,10
+
