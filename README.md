@@ -102,3 +102,19 @@ r'문자열': raw String
 print(s) 
 
 출력:가나,다라,마바
+- str.split(): seperator 기본으로 문자열 배열 분리
+> itmes='가나,다라,마바'.split(',')
+print (items)
+
+출력:['가나', '다라', '마바']
+
+- str.partition(): (prefix)+(separator)+(suffix) 3Tuple 
+> departure="Seattle-Seoul".partition('-')
+print(departure)
+
+출력: Seattle
+
+- srt.format(): 값을 지정하고 가져옴
+> area=(10,2)
+s="width:{x[0]}, he:{x[1]}".format(x=area)
+
