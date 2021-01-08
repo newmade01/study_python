@@ -163,7 +163,7 @@ print(n)
 
 | 예제  | 뜻  | 리턴값|
 | ------------ | ------------ |
-|  range(3) | Stop  | 0,1,2
-|range(3,6)|start,Stop| 3,4,5
-|rage(2,11,2)|start, stop, step|2,4,6,8,10
+|  range(3) | Stop  | 0,1,2|
+|range(3,6)|start,Stop| 3,4,5|
+|rage(2,11,2)|start, stop, step|2,4,6,8,10|
 
