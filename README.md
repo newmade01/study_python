@@ -1,6 +1,4 @@
-# styudy_python
-python공부
-ㄹ**함수: 들여쓰기**
+**함수: 들여쓰기**
 일반적으로 4개의 공백을 들여쓰기에 사용
 
 
@@ -36,7 +34,11 @@ j로 복소수 표현
  .img: 변수명
  
  
- **연산자**
+
+연산자
+------------
+
+
  **: 제곱
  //: 나누기에 소수점 이하를 버림 Floor Division
  
@@ -47,3 +49,13 @@ if x and y:
 print("yes")
 else:
 print("no")
+
+**Bitwise연산자**
+**멤버쉽 연산자**
+in, not in 우측 컬렉션에 속해 있는지 체크
+> a="ABC"
+b=3 in a
+print(b)
+
+**Identity연산자**
+is , is not 동일한 object인지 체크
